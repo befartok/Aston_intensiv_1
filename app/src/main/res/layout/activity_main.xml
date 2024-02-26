@@ -8,6 +8,7 @@
 
     <ImageButton
         android:id="@+id/buttonForward"
+        android:contentDescription="@string/Forward"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -23,6 +24,7 @@
 
     <ImageButton
         android:id="@+id/buttonRewind"
+        android:contentDescription="@string/Rewind"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -42,7 +44,7 @@
         android:layout_height="wrap_content"
         android:background="#673AB7"
         android:padding="24dp"
-        android:text="Music Player"
+        android:text="@string/music_player"
         android:textColor="#FFEB3B"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,6 +63,7 @@
 
     <ImageButton
         android:id="@+id/buttonPlay"
+        android:contentDescription="@string/Play"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -76,6 +79,7 @@
 
     <ImageButton
         android:id="@+id/buttonPause"
+        android:contentDescription="@string/Pause"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -90,6 +94,7 @@
 
     <ImageButton
         android:id="@+id/buttonStop"
+        android:contentDescription="@string/Stop"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
