@@ -8,7 +8,6 @@ import android.widget.ImageButton
 import android.widget.ListView
 import android.widget.Toast
 
-// TODO: убрать комментарии
 // TODO: добавить нотификации
 class MainActivity : AppCompatActivity() {
     private lateinit var buttonPlay: ImageButton
@@ -21,7 +20,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tracksName: String
     private var nameList = ArrayList<String>()
     private lateinit var intent : Intent
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -60,7 +58,6 @@ class MainActivity : AppCompatActivity() {
 
             tracksName = nameList.get(position)
             tracksPosition = position
-            //Toast.makeText(this, "pressed pos $position", Toast.LENGTH_SHORT).show()
 
             val serviceClass = MusicPlayerService::class.java
             val intent = Intent(this, serviceClass)
